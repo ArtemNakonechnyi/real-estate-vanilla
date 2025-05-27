@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "city": "Київ",
+    "district": "Печерськ",
+    "rooms": 2,
+    "area": 58,
+    "price": 15000,
+    "image": "img/id1-kyiv.jpg",
+    "description": "Двокімнатна квартира в центрі Києва, біля метро Арсенальна"
+  },
+  {
+    "id": 2,
+    "city": "Київ",
+    "district": "Оболонь",
+    "rooms": 3,
+    "area": 72,
+    "price": 17000,
+    "image": "img/id2-kyiv.jpg",
+    "description": "Сучасна квартира з видом на набережну"
+  },
+  {
+    "id": 3,
+    "city": "Київ",
+    "district": "Троєщина",
+    "rooms": 1,
+    "area": 45,
+    "price": 11000,
+    "image": "img/id3-kyiv.jpg",
+    "description": "Затишна однокімнатна квартира з меблями"
+  },
+  {
+    "id": 4,
+    "city": "Львів",
+    "district": "Шевченківський",
+    "rooms": 2,
+    "area": 55,
+    "price": 13500,
+    "image": "img/id4-lviv.jpg",
+    "description": "Квартира біля парку з новим ремонтом"
+  },
+  {
+    "id": 5,
+    "city": "Львів",
+    "district": "Франківський",
+    "rooms": 1,
+    "area": 42,
+    "price": 12000,
+    "image": "img/id5-lviv.jpg",
+    "description": "Однокімнатна квартира поруч з університетом"
+  },
+  {
+    "id": 6,
+    "city": "Львів",
+    "district": "Залізничний",
+    "rooms": 3,
+    "area": 75,
+    "price": 15000,
+    "image": "img/id6-lviv.jpg",
+    "description": "Трикімнатна квартира для родини, світла та простора"
+  },
+  {
+    "id": 7,
+    "city": "Одеса",
+    "district": "Приморський",
+    "rooms": 2,
+    "area": 60,
+    "price": 14000,
+    "image": "img/id7-odesa.jpg",
+    "description": "Квартира біля моря з великим балконом"
+  },
+  {
+    "id": 8,
+    "city": "Одеса",
+    "district": "Суворовський",
+    "rooms": 3,
+    "area": 78,
+    "price": 15500,
+    "image": "img/id8-odesa.jpg",
+    "description": "Тиха квартира з кондиціонером і кухнею-студією"
+  },
+  {
+    "id": 9,
+    "city": "Одеса",
+    "district": "Київський",
+    "rooms": 1,
+    "area": 43,
+    "price": 12500,
+    "image": "img/id9-odesa.jpg",
+    "description": "Компактна квартира в новобудові"
+  },
+  {
+    "id": 10,
+    "city": "Харків",
+    "district": "Салтівка",
+    "rooms": 2,
+    "area": 59,
+    "price": 13000,
+    "image": "img/id10-kharkiv.jpg",
+    "description": "Квартира з ремонтом в спокійному районі"
+  },
+  {
+    "id": 11,
+    "city": "Харків",
+    "district": "Центр",
+    "rooms": 1,
+    "area": 38,
+    "price": 11500,
+    "image": "img/id11-kharkiv.jpg",
+    "description": "Зручна квартира в центрі Харкова"
+  },
+  {
+    "id": 12,
+    "city": "Харків",
+    "district": "Північна Салтівка",
+    "rooms": 3,
+    "area": 80,
+    "price": 16000,
+    "image": "img/id12-kharkiv.jpg",
+    "description": "Велика квартира з окремими кімнатами"
+  }
+]
