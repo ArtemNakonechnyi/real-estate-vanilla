@@ -19,7 +19,7 @@
           <ul>
             <li><a href="#hero">Головна</a></li>
             <li><a href="#rent-wrapper">Оренда</a></li>
-            <li><a href="#">Контакти</a></li>
+            <li><a href="#contacts">Контакти</a></li>
           </ul>
         </nav>
         <nav class="header__mobileNav">
@@ -31,13 +31,13 @@
             <button id="close-btn" class="mobileMenu__btn">&times;</button>
             <div><a href="#hero">Головна</a></div>
             <div><a href="#rent-wrapper">Оренда</a></div>
-            <div><a href="#">Контакти</a></div>
+            <div><a href="#contacts">Контакти</a></div>
           </div>
         </div>
       </div>
     </header>
     <main class="container">
-      <div id="hero">
+      <section id="hero">
         <div class="hero-section">
           <h1>Real Estate Agency</h1>
           <h2>Квартири на будь-який смак</h2>
@@ -53,9 +53,9 @@
             <button class="carousel__btn right">&rarr;</button>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div id="rent-wrapper" class="rent-container">
+      <section id="rent-wrapper" class="rent-container">
         <div class="filters">
           <input
             type="text"
@@ -73,7 +73,38 @@
         </div>
 
         <section class="rent" id="rent"></section>
-      </div>
+      </section>
+
+      <section id="contacts" class="contacts">
+        <div class="contacts__map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5394.278139015493!2d30.516922529343244!3d50.44989437860833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce59e3ab65a7%3A0x694b8565cab02eaf!2sGolden%20Gate!5e0!3m2!1sen!2sua!4v1748441889285!5m2!1sen!2sua"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="contacts__info">
+          <div class="info-details">
+            <h2>Наш офіс</h2>
+            <p class="details-main">
+              Ми знаходимося в самому центрі Києва, поруч із метро Золоті
+              Ворота. Зручно дістатися як громадським транспортом, так і на
+              авто.
+            </p>
+            <p>
+              <strong>Адреса:</strong> вул. Володимирська, 40а, Київ, Україна
+            </p>
+            <p><strong>Графік роботи:</strong></p>
+
+            <ul>
+              <li>Пн–Пт: 09:00 – 18:00</li>
+              <li>Сб: 10:00 – 15:00</li>
+              <li>Нд: вихідний</li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
@@ -97,7 +128,6 @@
       </div>
     </footer>
 
-    <!-- <script src="js/carousel.js"></script> -->
     <script src="js/main.js" defer type="module"></script>
   </body>
 </html>

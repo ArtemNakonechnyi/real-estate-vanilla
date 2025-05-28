@@ -12,4 +12,11 @@ export function initBurgerMenu() {
       mobileMenu.classList.add("hidden");
     });
   }
+
+  const menuLinks = document.querySelectorAll("a");
+  menuLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      mobileMenu.classList.add("hidden");
+    });
+  });
 }
