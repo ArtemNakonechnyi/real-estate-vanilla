@@ -1,9 +1,15 @@
+.rent-container {
+  min-height: 300px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.468);
+}
+
 .rent {
-  padding: 2rem 1rem;
   display: grid;
-  flex-direction: column;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  /* padding-left: 7px;
+  padding-right: 7px; */
 }
 
 @media (max-width: 1024px) {
@@ -53,8 +59,9 @@
 }
 
 .filters {
+  padding-top: 20px;
   max-width: 70%;
-  margin: 20px auto;
+  margin: 50px auto 50px auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,10 +77,9 @@
 .filters__input,
 .filters__select {
   font-size: 16px;
-  height: 40px; /* 👈 одна высота вручную */
+  height: 40px;
   box-sizing: border-box;
   outline: none;
-  /* border-color: #888; */
 }
 
 .filters__input {
@@ -84,7 +90,7 @@
 }
 
 .filters__select {
-  padding: 5px 10px;
+  padding: 10px 10px;
   border-radius: 5px;
   border: 2px solid gray;
 }
