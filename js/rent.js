@@ -1,35 +1,3 @@
-// export async function renderItems() {
-//   const rentContainer = document.getElementById("rent");
-//   if (!rentContainer) return;
-
-//   const res = await fetch("data/data.json");
-//   if (!res.ok) throw new Error("failed to fetch data");
-
-//   const items = await res.json();
-
-//   rentContainer.innerHTML = "";
-
-//   items.forEach((item) => {
-//     rentContainer.innerHTML += `
-//       <div class="rent__item">
-//         <div class="item-image">
-//           <img src=${item.image} alt="фото квартири" />
-//         </div>
-//         <div class="item-description">
-//           <div class="description-city">Місто: <span>${item.city}</span></div>
-//           <div class="description-district">Район: <span>${item.district}</span></div>
-//           <div class="description-rooms">Кімнати: <span>${item.rooms}</span></div>
-//           <div class="description-area">Площа: <span>${item.area} м/кв</span></div>
-//           <div class="description-price">Ціна: <span>${item.price} грн</span></div>
-//           <div class="description-title">Опис: <span>${item.description}</span></div>
-//         </div>
-//       </div>
-//     `;
-//   });
-// }
-
-//
-
 let allItems = [];
 
 export async function renderItems() {

@@ -22,6 +22,9 @@
   .rent {
     grid-template-columns: 1fr;
   }
+  .item-description * {
+    font-size: 18px !important;
+  }
 }
 .rent__item {
   display: flex;
